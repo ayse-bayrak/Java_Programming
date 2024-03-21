@@ -11,7 +11,7 @@ public class TestEmployeeObjects {
         Teacher teacher = new Teacher("James", 45, 'M', "B1", "Math Teacher", 75000);
         Developer developer = new Developer ("Lucy", 30, 'F', "C1", "Java Developer", 100000, "Java");
         // it is a concrete class, it is the child class of this abstract class employee and this child class is not an abstract
-        // if it is regular class that is extending employee, then it is the concrete class
+        // if it is regular class that is extending Employee, then it is the concrete class
 
         Driver driver = new Driver("Aeron", 48, 'M', "D1", "Truck Driver", 90000);
 
