@@ -7,15 +7,18 @@ import java.time.LocalDate;
 
 public final class CydeoDevStudent extends Person {
 
-    private final String id;  // final variables, they do not have default value,
+    private final String id;
+    // final variables, they do not have default value,
     // so if you do not initialize give you error, so you must initialize, since it is private variable,
     // you must  only initialize with constructor
 
     private String batchName; // non-final and private
     private int batchNumber; // non-final and private
-    public static final String programmingLanguage;// I don't want to the value of programming language to change after that,
+    public static final String programmingLanguage;
+    // I don't want to the value of programming language to change after that,
     // So I declare it as final, static and final variable
-    // final variables, they do not have default value, they has to be instantiated before you use them, so if you do not initialize give you error
+    // final variables, they do not have default value, they has to be instantiated before you use them,
+    // so if you do not initialize give you error
     // so you must initialize
 
     public CydeoDevStudent(String name, char gender, LocalDate dateOfBirth, String id, String batchName, int batchNumber) {
