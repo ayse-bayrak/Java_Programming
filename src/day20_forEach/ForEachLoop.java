@@ -4,7 +4,7 @@ public class ForEachLoop {
 
     public static void main(String[] args) {
 
-        //if I need to access each element, it is doable with the for each loop.
+        // if I need to access each element, it is doable with the for each loop.
         // Easier way is by using for each Loop
 
         int[] numbers = {10, 20, 30, 40, 50};
