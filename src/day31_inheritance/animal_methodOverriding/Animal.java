@@ -64,6 +64,8 @@ public class Animal {
         this.color = color;
     }
 
+    //methods
+
     public void drink() {
         System.out.println(name + " is drinking water");
     }

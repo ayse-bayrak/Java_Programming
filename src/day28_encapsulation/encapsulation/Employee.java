@@ -61,7 +61,7 @@ public class Employee {
     }
 
     public void setSalary(double salary) { //WRITE
-        if (salary < 1) { // condition (with argument) has to be checked before settin it.
+        if (salary < 1) { // condition (with argument) has to be checked before setting it.
             System.err.println("Salary can not be negative " + salary);
             System.exit(1);
         }

@@ -1,8 +1,8 @@
 package day26_static.studentTask;
 
-public class Student {// the class detirmines how the object will behave and what the object will contain
+public class Student {// the class defines how the object will behave and what the object will contain
         // declare attributes
-    // if you want to be able to store different names for the different objects of student, ut shoul be instance
+    // if you want to be able to store different names for the different objects of student, ut should be instance
     public String name, id;
     public int age;
     public char gender;

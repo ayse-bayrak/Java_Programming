@@ -15,7 +15,7 @@ public class Car {
     }
 
     public Car(String make, String model) {// make and model
-        this(make);// this.make = make;
+        this(make);// this.make = make;// call other constructor same class
         this.model = model;
     }
 

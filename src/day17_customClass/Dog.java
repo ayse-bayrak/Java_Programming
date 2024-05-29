@@ -43,6 +43,6 @@ public class Dog {
     }
 }
 /* we have five instance variables and two instance methods.
-That means when you create the object, from this class, each object
+That means when you create the object from this class, each object
 they have their own attributes and actions
  */

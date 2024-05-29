@@ -1,6 +1,7 @@
 package day34_abstraction.animalTask;
 
-public abstract class Animal { // first create to parent class, if it is going to be parent class,
+public abstract class Animal { // first create to parent class,
+    // if it is going to be parent class,
     // it's better if you make it abstract
 
     private String name, breed;
@@ -61,6 +62,7 @@ public abstract class Animal { // first create to parent class, if it is going t
         this.color = color;
     }
 
+    //methods
     public void drink() {
         System.out.println(name + " is drinking water");
     }

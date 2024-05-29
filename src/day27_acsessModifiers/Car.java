@@ -5,7 +5,9 @@ public class Car {// outer class
     public int year;
     public double price;
 public static int wheels = 4;
+
     public class CarEngine{// inner class
+
         public void method(){
             System.out.println(make);
             System.out.println(wheels);

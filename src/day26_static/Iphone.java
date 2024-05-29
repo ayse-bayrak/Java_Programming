@@ -8,7 +8,7 @@ public class Iphone {
     public String color; // different color for iphone objects
     public double price; // different price is needed for iphone objects
     public static String OS = "iOS"; // static: operating system is same for all the iphone objects
-    public static String madeIn = "China";
+    public static String madeIn = "China"; // static: madeIn is same for all the iphone objects
 
     public static boolean hasBattery = true; // only one value
 
