@@ -4,7 +4,7 @@ public class InstanceInitializationBlock {
     public String name;
     public int age;
 /*
-    {// only the default value set to the name, age when you use the instance initilization block
+    {// only the default value set to the name, age when you use the instance initialization block
         name = "James";
         age = 20;
     }
@@ -20,13 +20,9 @@ public class InstanceInitializationBlock {
 
         /*
         InstanceInitializationBlock obj1 = new InstanceInitializationBlock();
-
         InstanceInitializationBlock obj2 = new InstanceInitializationBlock();
-
         System.out.println(obj1.name);
-
         System.out.println(obj2.name);
-
          */
         InstanceInitializationBlock obj1 = new InstanceInitializationBlock("James", 20);
         InstanceInitializationBlock obj2 = new InstanceInitializationBlock("Aaron", 28);

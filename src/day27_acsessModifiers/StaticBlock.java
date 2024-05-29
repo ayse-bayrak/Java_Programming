@@ -24,5 +24,5 @@ public class StaticBlock {
     static {
         System.out.println("Static block2");
     }
-// always firstly static blockss gets executed
+// always firstly static blocks gets executed
 }

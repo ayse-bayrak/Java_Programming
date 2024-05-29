@@ -26,6 +26,7 @@ public class CustomMethodPractice {
     }
 
     // strongly recommended, take a command on top of the method what's functionality of this method
+
     // the method takes an argument number, and verifies if the number is odd number or even number
     public static void oddOrEven(int number){
 
@@ -39,7 +40,6 @@ public class CustomMethodPractice {
 
 
     // create a method that can print the maximum number between two numbers, if both are equal then it prints "Equal", (num1, num2)
-
     public static void maxNum(double number1, double number2){// we can apply any two numbers
         // even if I have integer, I can store into the double variable.
 
@@ -54,7 +54,6 @@ public class CustomMethodPractice {
     }
 
     //Create a method that can display the initials of a person  (firstName, lastName)
-
     public static void initialPerson (String firstName, String lastName) {
 
         String initial=firstName.substring(0,1).toUpperCase()+"."+lastName.substring(0,1).toUpperCase();

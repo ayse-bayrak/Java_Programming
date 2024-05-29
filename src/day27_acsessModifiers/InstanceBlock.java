@@ -11,7 +11,7 @@ public class InstanceBlock  {
     }
 
     public static void main(String[] args) {
-        new InstanceBlock();
+        new InstanceBlock();  // instance block is executed before constructor
         new InstanceBlock();
         new InstanceBlock();
     }

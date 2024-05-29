@@ -28,7 +28,7 @@ public class WrapperClassMethods {
 
         double num3 = Double.parseDouble(s);
 
-        Double num4 = Double.valueOf(s);
+        Double num4 = Double.valueOf(s);  // Wrapper class
 
         System.out.println(num3);//20.5
         System.out.println(num4);//20.5
