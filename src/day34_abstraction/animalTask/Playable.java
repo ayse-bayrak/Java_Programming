@@ -6,7 +6,7 @@ public interface Playable {
 
    boolean isFriendly = true; // default it will be static and final,
 
-    // so  we have to initilaize only way option that you have is set by this operator.
+    // so  we have to initialize only way option that you have is set by this operator.
     // you don't have to  'public static final' it will be default
 
    /*

@@ -36,7 +36,7 @@ public class PolymorphismIntro {
         // there is "IS A" relationship between Animal and dog, cat, tiger, lion, eagle, parrot, dolphin, shark, duck.
         //Parent can reference to all the child objects,
 
-        /// Animal animal = new Tesla("Model Y", "Blue", 2022, 60000);
+        //Animal animal = new Tesla("Model Y", "Blue", 2022, 60000);
         // there is not "IS A" relationship between Animal and Tesla
         // it can not be reference to the Tesla object
 
