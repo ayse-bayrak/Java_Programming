@@ -29,7 +29,7 @@ public class AccessModifiers {
     }
 
     public static void main(String[] args) {
-        System.out.println(publicData);// public is accessible within same class
+        System.out.println(publicData);// public is accessible everywhere
         System.out.println(protectedData);// protected is accessible within same class
         System.out.println(AccessModifiers.defaultData);//default is accessible within the same class
         System.out.println(privateData);//private is accessible within the same class
