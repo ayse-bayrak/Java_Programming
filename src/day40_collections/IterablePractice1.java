@@ -26,9 +26,10 @@ public class IterablePractice1 {
         ));
 
         // removed the name that are named Ahmet
-
+        // create Iterator
         Iterator<String> it = names.iterator(); // This is how can get the iterator object which contains the whole iteration of this collection
-
+        // hasNext() check if is there next element ?
+        // next(), return next element of iterator, and moves iterator to next position
         while(it.hasNext()){
             String each = it.next();
             if(each.equalsIgnoreCase("ahmed")){
@@ -62,7 +63,7 @@ public class IterablePractice1 {
 
         // find the nth largest number
         int n = 5;
-        // we can use teh remove if method to remove the first four maximum numbers nd then next maximum number will be the fifths.
+        // we can use the remove if method to remove the first four maximum numbers nd then next maximum number will be the fifths.
 
         for (int i = 0; i < n-1; i++) {
             numbers.removeIf(p -> Collections.max(numbers) == p);

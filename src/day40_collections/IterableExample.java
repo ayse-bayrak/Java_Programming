@@ -31,7 +31,7 @@ public class IterableExample {
 
         System.out.println(list);
         //[2, 4, 5, 2, 4, 5, 6, 7, 2, 4, 5, 6, 7] it will fail
-        //Because when you try to accses the index which are greater than the current index that yo may have,
+        //Because when you try to access the index which are greater than the current index that yo may have,
         //Because after you remove one element, this one's in the original indexes one, but it will be reduce zero,
         //And when you use index one again for the next iteration, it will no longer be referencing to the same element again
         // KEEP IN MIND YOU CAN NEVER USE THE REMOVE METHOD OF THE COLLECTION WHILE YOU ARE ITERATING THAT COLLECTION

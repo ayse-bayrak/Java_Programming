@@ -59,7 +59,7 @@ public class Pizza {
         return totalPrice;
     }
     // it has been taken from day18-warmuptask package-Pizza class
-    @Override // another call runtime polymorphism
+    @Override // OVERRIDE --> another call runtime polymorphism
     public String toString() {
         return "Pizza{" +
                 "size=" + size +
