@@ -6,10 +6,11 @@ public class ListDemo {
     public static void main(String[] args) {
 
        //List<Integer> arrayList = new ArrayList<>(); // All those collection classes and interfaces are from Java.util package
-        // This is an Array List, parent (List) it can be referenced to the child object (Array List) .There is upcasting and so polymorphism
+        // This is an Array List, parent (List) it can be referenced to the child object (Array List) .
+       // There is upcasting and so polymorphism
         //And also This class can be referenced to its own ob object. like this:
 
-        ArrayList<Integer> arrayList = new ArrayList<>();  // There is no polymorphism, there is sno upcasting.
+        ArrayList<Integer> arrayList = new ArrayList<>();  // There is no polymorphism, there is no upcasting.
      // array based class ===> get() is faster
        arrayList.add(100);
         arrayList.add(200);
@@ -37,7 +38,7 @@ public class ListDemo {
         // but how it's done in the background are very different.
 
 
-        //in what cases it's beter to use LinkedList or Array List,
+        //in what cases it's better to use LinkedList or Array List,
         //When you are managing the data, if you have to do lots of insertion and deletion then Linked List would be better choice
         //Other than you will always use the arraylist, because it always the best whenever you are trying to retrieve the element.
     //For example week12_exceptions.practiceTask-ShoppingCard scenario we use Linked List to add and remove the elements to shopping cart

@@ -11,7 +11,7 @@ public class QueueDemo {
         queue1.addAll(Arrays.asList(10, 200, 300, 40, 90));
         queue1.addAll(Arrays.asList(10, 200, 300, 40, 90));
         queue1.addAll(Arrays.asList(10, 200, 300, 40, 90));
-        //   queue1.addAll(Arrays.asList(null, null, null)); // nullPointerExceptionQueue does not accept null
+        //queue1.addAll(Arrays.asList(null, null, null)); // nullPointerExceptionQueue does not accept null
 
         System.out.println(queue1);// allow duplicate and order is very random
         //[10, 10, 10, 10, 40, 200, 40, 40, 40, 90, 90, 300, 300, 200, 90, 300, 200, 300, 200, 90]
@@ -54,7 +54,7 @@ public class QueueDemo {
         Queue<Integer> queue2 = new ArrayDeque<>(); // it keeps the insertion order, does not accept null
         queue2.addAll(Arrays.asList(10, 200, 300, 40, 90));
         queue2.addAll(Arrays.asList(10, 200, 300, 40, 90));
-        // queue2.addAll(Arrays.asList(null, null, null)); // doe not accept null
+        //queue2.addAll(Arrays.asList(null, null, null)); // does not accept null
 
         System.out.println(queue2);
 
@@ -105,15 +105,15 @@ public class QueueDemo {
 
         System.out.println(list);
 
-        // what if I want to call poll() method, then even thoug referebce type does not have poll() method but
+        // what if I want to call poll() method, then even though reference type does not have poll() method but
         // object type has, in this case we need to the reference type to the LinkednList, can use down casting
 
         ( (LinkedList)list).poll();  // LinkedList also has FIFO
 
         System.out.println(list);
 
-        // is it possible that Linked List can have LIFO
-        // ( (Stack)list ).pop();   // LIFO ,clasCastException  we can not casting stack because no relationship between stack and LinkedList
+        // is it possible that LinkedList can have LIFO
+        // ((Stack)list).pop();   // LIFO ,clasCastException  we can not casting stack because no relationship between stack and LinkedList
 
         System.out.println(list);
         List<Integer> list1 = new LinkedList<>();

@@ -15,7 +15,7 @@ public class SetDemo {
 
         System.out.println("----------------------------------------");
 
-        Set<Integer> set1 = new HashSet<>(); // order is random, accepts null key,  does not duplicate
+        Set<Integer> set1 = new HashSet<>(); // order is random(based on hashcode), accepts null key,  does not duplicate,
         set1.addAll(Arrays.asList(10, 200, 300, 40, 90));
         set1.addAll(Arrays.asList(10, 200, 300, 40, 90));
         set1.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -42,13 +42,13 @@ public class SetDemo {
         // System.out.println(str.toLowerCase());
 
 
-        Set<Integer> set3 = new TreeSet<>(); // Keeps sorted order, does not accept duplicate
+        Set<Integer> set3 = new TreeSet<>(); // Keeps sorted order (asc), accept null, does not accept duplicate
         set3.addAll(Arrays.asList(10, 200, 300, 40, 90));
         set3.addAll(Arrays.asList(10, 200, 300, 40, 90));
         set3.addAll(Arrays.asList(10, 200, 300, 40, 90));
         /*
           set3.addAll(Arrays.asList(null, null, null, null, null));
-        When the tree set is implemented in backround, it is going to compare every single element in.
+        When the tree set is implemented in background, it is going to compare every single element in.
         Every single object in the tree side will be compared.
         //ascending order
         */
@@ -67,7 +67,7 @@ public class SetDemo {
         Set<String> result = new LinkedHashSet<>();
         result.addAll( Arrays.asList(words) ); // in order to convert this array to the collection type from the arrays Utility you can still call asList method
 
-      System.out.println(result);//[Java, Python, C#, C++, Ruby] same order and do not duplicate
+        System.out.println(result);//[Java, Python, C#, C++, Ruby] same order and do not duplicate
 
         /*
         // System.out.println(result.get(1));// set it does not index number,
@@ -103,12 +103,12 @@ public class SetDemo {
         Set<Integer> n = new TreeSet<>(numbers); // convert the List to the Set
         //They have constructor with collection as the argument
 
-        System.out.println(n);
+        System.out.println(n); // print Set
 
 
-        // numbers = new ArrayList<>(n);
+         numbers = new ArrayList<>(n);
 
-
+        System.out.println(numbers); // print ArrayList
 
     }
 }

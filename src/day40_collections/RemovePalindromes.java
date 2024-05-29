@@ -14,6 +14,7 @@ public class RemovePalindromes {
         // without using remove if, remove Palindromes
 
         Iterator<String> it = names.iterator();
+        System.out.println(it);//java.util.ArrayList$Itr@6b71769e
 
         while(it.hasNext()){
             String each = it.next();
@@ -42,8 +43,8 @@ public class RemovePalindromes {
         );
 
         names2.removeIf(p -> StringUtility.reverse(p).equalsIgnoreCase(p));
-        //  names2.removeIf( p -> new StringBuilder(p).reverse().toString().equalsIgnoreCase(p) );
-
+         names2.removeIf( p -> new StringBuilder(p).reverse().toString().equalsIgnoreCase(p) );
+        //StringBuilder has reverse()
         System.out.println(names2);
 
     }

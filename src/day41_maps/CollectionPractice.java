@@ -3,7 +3,7 @@ package day41_maps;
 import day17_customClass.Employee;
 import java.util.*;
 public class CollectionPractice {
-    // Array and Collection, they both support  non-primitives, which means, as long as you have an object,
+    //Array and Collection, they both support  non-primitives, which means, as long as you have an object,
     //You can store it into Array or you can store it into Collection
 
     public static void main(String[] args) {

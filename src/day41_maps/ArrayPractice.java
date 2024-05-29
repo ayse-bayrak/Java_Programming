@@ -1,7 +1,7 @@
 package day41_maps;
 import java.sql.Array;
 import java.util.*;
-// Array and Collection, they both support non-primitives, which means, as lon as you have an object,
+// Array and Collection, they both support non-primitives, which means, as long as you have an object,
 //You can store it into Array or you can store it into Collection
 public class ArrayPractice {
 

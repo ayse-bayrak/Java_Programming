@@ -25,7 +25,7 @@ public class CollectionPractice {
         System.out.println(collection);
         //[100, 100, 200, 100, 200, 300, 400, 500, 600, 700]
 
-       // System.out.println(collection.get(2)); compile error, because we don't have get() method in the reference type(Collection in here)
+     // System.out.println(collection.get(2)); Collection does not have get() method, compile error, because we don't have get() method in the reference type (Collection in here)
 
         /*
         ArrayList unique method that do not contain Collection
@@ -40,11 +40,11 @@ public class CollectionPractice {
 
         System.out.println( ((ArrayList) collection).get(2) );
 
-        // System.out.println( ( (Stack)collection).pop() ); you will get class get exception,
-        // because they have is a relationship Stack and object type that is ArrayList
+       //System.out.println( ( (Stack)collection).pop() ); //you will get ClassCastException,
+        // because they don't have `is a` relationship Stack and object type that is ArrayList
 
         System.out.println("-------------------------------------------------");
-        // I can also let Collection b e reference type to any sort of Set
+        // I can also let Collection be reference type to any sort of Set
 
         //Collection<Integer> collection2 = new LinkedHashSet<>();// use it, if you want to keep the insertion order
         //Collection<Integer> collection2 = new TreeSet<>(); //
@@ -55,11 +55,15 @@ public class CollectionPractice {
         System.out.println(collection2); // does not allow  duplicate
 
         //   System.out.println(  ( (ArrayList)collection2 ).get(4)  ); // we will get ClassCastException
-        //   because no relationship between ArrayList and HasSet
+        //   because no is a relationship between ArrayList and HashSet
 
-        System.out.println(  new ArrayList<>(collection2).get(4)  ); //in here Array List constructor can take this collection and
+        System.out.println(  new ArrayList<>(collection2).get(4)  );
         /*
-        it will give us the arraylist when it creates the object. And I did not assign it to a reference variable,
+        to retrieve the element I can use constructor of ArrayList and i can convert to any collection (here HashSet) to ArrayList.
+        we need to just reach get() method to retrieve element. so i need to ArrayList, ArrayList has index number, it has get() method
+        in here Array List constructor can take this Collection (HashSet) and
+        it will give us the ArrayList when it creates the object.
+        And I did not assign it to a reference variable,
         Because this is just for one time use only, I don't need to keep this object after reading the element.
         I can just it will automatically be eligible for garbage collection afterward.
         */
