@@ -43,7 +43,7 @@ public class MapPractice1 {
         */
 
         // Since I just need the values of the map, we should use Values() method
-        // so depending on the senario that you will decide which iteration of the map you should be using
+        // so depending on the scenario that you will decide which iteration of the map you should be using
         for (String eachValue : employeeMap.values()) {
             if(eachValue.equals("F")){
                 countFemaleEmployees++;

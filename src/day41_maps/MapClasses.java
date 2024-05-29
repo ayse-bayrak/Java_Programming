@@ -5,7 +5,7 @@ import java.util.*;
 // if you have multiple pairs that you need tp store, then yuo use the map, other than you don't use the map.
 public class MapClasses {
     public static void main(String[] args) {
-// when it's time to use the map, you have to specify, what should be the key and what shoul be the value
+// when it's time to use the map, you have to specify, what should be the key and what should be the value
 //Those are the four classes that having is a relationship with the map. So map can be referenced 4 classes object
 
       //pair: name, salary
@@ -16,7 +16,7 @@ public class MapClasses {
         // map1.put("Daniel", 80000);// because the key can not be duplicated last key of value is assigned to the key
         // when ypu call this put method, you can also use it for updating the values of the specific key.
         //in order to update the values of the keys in the map, you call the put method and use the key
-        // if this key is alreaday existed in the map, all it does is change the value to this given value.
+        // if this key is already existed in the map, all it does is change the value to this given value.
         hashMap.put("Arron", 78000);
         hashMap.put("Chris", null);
         hashMap.put("Breanna", null);

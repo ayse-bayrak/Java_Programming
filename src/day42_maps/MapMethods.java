@@ -27,14 +27,15 @@ public class MapMethods {
         // object will not be added, only pairs, the pairs will be added
         //by using the putAll() method, we added all the pairs of one map into another map
 
-        System.out.println(employees);
+        System.out.println(employees);//{A02=Khashayar, A03=Tatiana, B03=Nora, C02=Josh, D02=Abidullah}
         Map<String, String > employees1 = new TreeMap<>();
         employees1.putAll(map); // this putAll() method it will still implicitly use to put method.
         //When you call this, it is going to iterate the map, add it gets the keys and values one by one and then it used to put() method for what it puts into this map
 
 
         employees1.remove("C02");
-       boolean remove = employees1.remove("A02", "Khashayar");
+        boolean remove = employees1.remove("A02", "Khashayar");//{A02=Khashayar, A03=Tatiana, B03=Nora, C02=Josh, D02=Abidullah}
+        employees1.values().remove("Nora");//{A03=Tatiana, D02=Abidullah}
         System.out.println(employees1);
 
         System.out.println(map == employees1);// false //Even though they have the same pairs, I am still getting false.
