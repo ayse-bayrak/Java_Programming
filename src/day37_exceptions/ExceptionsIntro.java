@@ -12,7 +12,7 @@ public class ExceptionsIntro {
 
         Pizza pizza = null; // null keyword is not object, your object is null, null does not reference to any object at all
 
-        //pizza.calcCost();//NullPointerException, unchecked exception category
+      // pizza.calcCost();//NullPointerException, unchecked exception category
 
         //System.out.println(50/0); // ArithmeticException, unchecked exception category
 
@@ -29,8 +29,8 @@ public class ExceptionsIntro {
         //There is a bug
         System.out.println("====================================");
 
-        //FileInputStream file = new FileInputStream(""); // Checked Exception
-       //Thread.sleep(3000); // Checked exception
+//        FileInputStream file = new FileInputStream(""); // Checked Exception
+//       Thread.sleep(3000); // Checked exception
 
 
     }

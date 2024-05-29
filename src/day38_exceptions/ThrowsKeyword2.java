@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 public class ThrowsKeyword2 {
     public static void main(String[] args) {
 
-        //method1(); // since method1 can not handle exception, give me error
+       // method1(); // since method1 can not handle exception, give me error
         Library.sleep(3.5); // since sleep() method can handle exception, do not give me error
          // method2();// since method1 can not handle exception, give me error
 
@@ -43,6 +43,6 @@ public class ThrowsKeyword2 {
 }
 /*
    // those are disadvantage of the throws keyword,
-        1-Only for checked exception. it can not handle unchaceked exceptions,
+        1-Only for checked exception. it can not handle unchecked exceptions,
         2-throws keyword is not the permanent solution, exception is not gone
  */

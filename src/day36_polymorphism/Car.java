@@ -22,7 +22,6 @@ public class Car {
     static {
         numberOfWheels = 4;
         hasBattery = true;
-
     }
     public String getMake() {
         return make;

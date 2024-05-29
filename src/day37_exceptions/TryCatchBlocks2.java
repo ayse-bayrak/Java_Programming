@@ -12,7 +12,7 @@ public class TryCatchBlocks2 {
             e.printStackTrace(); // strongly recommended to use this printStackTrace method all the time in the catch block
 // because it displays full details of the exception after the execution of program
 
-            //System.out.println(e.getMessage());
+            //System.out.println(e.getMessage());// you can use like this
             //Index 1000 out of bounds for length 4. it only gives you the exception message no line or no other details
             // so it is better to use printStackTrace() instead of getMessage()
         }

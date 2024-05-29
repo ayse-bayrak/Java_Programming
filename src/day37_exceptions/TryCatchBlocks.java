@@ -8,7 +8,7 @@ public class TryCatchBlocks {
 
             System.out.println(9 / 0); // it is give me exception, ArithmeticException: / by zero
             System.out.println("Try block");
-        } catch (ArithmeticException e) {  // we have to give the right exception class, there is MUST is a relationship for ex. it can not be nullpointe etc
+        } catch (ArithmeticException e) {  // we have to give the right exception class, there is MUST is a relationship for ex. it can not be null pointer etc
             System.out.println("Catch block");
         }
         System.out.println("Program1 ended");
