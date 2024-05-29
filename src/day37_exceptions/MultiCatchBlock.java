@@ -8,7 +8,7 @@ public class MultiCatchBlock {
 
         System.out.println("Program1 started");
         Car car = null;
-        // we have the Car reference at reference variable but we don not have abject,
+        // we have the Car reference at reference variable but we don not have Object,
         // if we do not have car object. you can not call the instance methods drive(),
         // which means this line may give me some exception
 
