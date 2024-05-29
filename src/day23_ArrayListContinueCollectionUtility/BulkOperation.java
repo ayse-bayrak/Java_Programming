@@ -19,6 +19,7 @@ public class BulkOperation {
         list1.add(3);
 
         list1.addAll(1, numbers); // it takes one argument
+        //[1, 10, 20, 30, 40, 2, 3]
 
         System.out.println(list1);
 
