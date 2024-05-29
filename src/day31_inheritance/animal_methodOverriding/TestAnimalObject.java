@@ -19,7 +19,8 @@ public class TestAnimalObject {
 
         System.out.println("--------------------------------------------------------");
 
-        cat.eat(); // override, which one of their implementetions gets executed for this,
+        cat.eat();
+        // override, which one of their implementations gets executed for this,
         // depends on the object
         dog.eat();
         eagle.eat();

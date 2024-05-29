@@ -9,8 +9,6 @@ public class WarmUpTask {
         char c = '*';
         calculate(35, 7, '/');
 
-
-
         calculate(a, b, c);
 
 

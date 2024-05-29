@@ -5,7 +5,7 @@ public class TestEmployeeObjects {
 
         //Employee employee = new Employee("Ayse", 41, 'F', "12", "SDET", 100000);
         // we can not create objects from an abstract class, object  MUST be created from a concrete class
-        // Concret class is extending this abstract class, child of abstract class
+        // Concrete class is extending this abstract class, child of abstract class
         // for example Teacher class
 
         Teacher teacher = new Teacher("James", 45, 'M', "B1", "Math Teacher", 75000);

@@ -6,7 +6,10 @@ public class TestNestedClassObjects {
 
         Car obj1 = new Car(); // Car object
         // object from outer class
-        Car.CarEngine obj2 = obj1.new CarEngine(); // Car engine object, since inner class is instance method, we call through the object
+
+        Car.CarEngine obj2 = obj1.new CarEngine();
+        // Car engine object, since inner class is instance method, we call through the object
+
 // object from instance inner class
         Car.StaticInnerClass obj3 = new Car.StaticInnerClass();
 // object from static inner class
