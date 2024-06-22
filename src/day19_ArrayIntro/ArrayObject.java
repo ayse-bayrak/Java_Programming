@@ -9,6 +9,8 @@ public class ArrayObject {
         int[] arr2 = arr1;
         int[] arr3 = arr2;
 
+
+
         arr1[0] = 1000;
         arr2[2] = 3000;
 
