@@ -16,6 +16,10 @@ public class MapPractice {
         person1.put("salary", 100000.5);
         person1.put("married", true);
 
+        person1.putIfAbsent("name","Ayse");
+        System.out.println(person1); // the same it does not change
+        person1.putIfAbsent("name1","Ayse"); // name1 key is added with value as Ayse
+
         System.out.println(person1);
 
         System.out.println( person1.get("name") ); //Arthur
