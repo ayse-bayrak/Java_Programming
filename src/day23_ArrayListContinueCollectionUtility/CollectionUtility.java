@@ -51,6 +51,9 @@ public class CollectionUtility {
         System.out.println(students);
         //[Bilal, Gadir, Abidullah, Hasan]
 
+        //Collections.reverse(students);
+
+
 
     }
 }
